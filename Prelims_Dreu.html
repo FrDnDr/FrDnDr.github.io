@@ -5,21 +5,25 @@
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
-            background-color: #f0f0f0;
+            background-color: #dcdcdc;
         }
-        
         .container {
             width: 100%;
             margin: 0 auto; 
             text-align: left; 
         }
-
+        header{
+            background-color: beige;
+            background-size: contain, cover;
+            background-attachment: fixed;
+        }
         img {
             display: block;
             margin: 0 auto;
             width: 125px;
             height: 125px;
-            border: 1px;
+            border: #050303;
+            border-radius: 2px;
         }
 
         h4 {
@@ -32,8 +36,8 @@
         h5, h6 {
             font-size: 20px;
             text-align: center;
-            margin-top: 5px;
-            margin-bottom: 5px;
+            margin-top: 1px;
+            margin-bottom: 1px;
         }
 
         p {
@@ -59,23 +63,29 @@
         ul, ol {
             text-align: justify; 
         }
+        hr{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!--Photo-->
-        <img src="Image/prelims/2x2pic.jpg" position="relative" width="125px" height="125px">
-        <!--Full Name-->
-        <h4><b>Francis Daniel Dreu</b></h4>
-        <!--Address-->
-        <p>17 Dayang St., Naga City, Camarines Sur</p>
-        <!--Contact Information-->
-        <p>Email: dreufrancisdaniel@gmail.com</p>
-        <p>Contact No.: 09086993264</p>
-        <br>
-        <hr>
+    <header>
+        <div class="container">
+            <!--Photo-->
+            <img src="Image/prelims/2x2pic.jpg" position="relative" width="125px" height="125px">
+            <!--Full Name-->
+            <h4><b>Francis Daniel Dreu</b></h4>
+            <!--Address-->
+            <p>17 Dayang St., Naga City, Camarines Sur</p>
+            <!--Contact Information-->
+            <p>Email: dreufrancisdaniel@gmail.com</p>
+            <p>Contact No.: 09086993264</p>
+    </header>
+    <hr>
         <!--Short Personal Statement-->
-        <h5>Personal Statement</h5>
             <p>A highly motivated and dedicated professional with a Bachelor's degree in Computer Science </p>
             <p>and over 3 years of experience in software development. Proven ability to design and implement</p>
             <p> effective strategies and develop high-performing teams. Committed to leveraging technical skills </p>
