@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        div{
+            background-color: white;
+            width: 300px;
+            padding: 7px;
+            margin: 0 auto;
+        }
+        *{
+            font-family: Oswald;
+        }
+        body{
+            background-color: lightslategray;
+        }
+        form{
+            font-family: Oswald;
+        }
+        input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel], input[type=number] {
+            width: 100%;
+            padding: 1px 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class = "main">
+            <h1>Registration Form</h1>
+            <form style="padding: 10px" align="left">
+                First name: <br>
+                <input type= "text" class="textname" name= "firstname" /><br>
+                Last name: <br>
+                <input type= "text" class="textname" name= "lastname" /><br>
+                Nickname: <br>
+                <input type= "text" class="textname" name= "nickname" /><br>
+                Email: <br>
+                <input type= "text" class="emailname" name= "email" /><br>
+                Password: <br>
+                <input type= "password" class="passname" name= "password" /><br>
+                Date of Birth: <br>
+                <input type= "date" class="bdate" name= "dateOfBirth" /><br>
+                Gender: <br>
+                <input type= "checkbox" class="checkb" name= "male" />Male
+                <input type= "checkbox" class="checkb" name= "female" />Female
+                <input type= "checkbox" class="checkb" name= "other" />Other<br>
+                Mobile: <br>
+                <input type= "number" class="mbnumber" name= "mobile" /><br>
+                Address: <br>
+                <textarea name= "address" class="textaddress" cols = "50" rows="5"></textarea><br>
+                <button style="background-color: green; color: white; font-family: Calibri;" >Submit</button>
+                <button style="background-color: red; color: white; font-family: Calibri;">Reset</button>
+                <br>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
